@@ -53,7 +53,7 @@ public class Main {
          if (t1.addCourse(course)) {
             System.out.println(course + " ditambahkan.");
          } else {
-            System.out.println(course + " tidak bisa ditambahkan.");
+            System.out.println(course + " sudah ada tidak bisa ditambahkan lagi.");
          }
       }
       //remove mata kuliah
@@ -68,7 +68,7 @@ public class Main {
          if (t1.removeCourse(course)) {
             System.out.println(course + " dihapus.");
          } else {
-            System.out.println(course + " tidak bisa dihapus.");
+            System.out.println(course + " sudah tidak ada tidak bisa dihapus.");
          }
       }
     }
